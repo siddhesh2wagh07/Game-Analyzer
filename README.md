@@ -1,7 +1,7 @@
-A.Title-
+A.Title -
 Gameplay Analyzer
 
-B.Overview of the Project
+B.Overview of the Project -
 It analyzes the gameplay of the player and helps them improve their gameplay with tips
 
 C.Technologies/Tools used-
@@ -10,29 +10,27 @@ C.Technologies/Tools used-
 •	Statistics module
 •	Random module
 
-D.Steps to install and run the project-
-Prerequisites
+D.Steps to install and run the project -
+Prerequisites--
 Before you begin, ensure you have the following installed on your system:
-
 Python: Version 3.6 or higher.
-
 pip: Python's package installer (usually included with Python).
 
-Installation
+Installation--
 This project requires the matplotlib library for generating performance graphs and the built-in statistics module.
 Step 1: Install Python Dependencies
 Open your terminal or command prompt and run the following command to install matplotlib:
 pip install matplotlib
 
-How to Run
-Step 1: Save the Code
+How to Run--
+Step 1: Save the Code -- 
 Save the entire provided Python code into a file named analyzer.py (or any .py file of your choice).
 
-Step 2: Execute the Script
+Step 2: Execute the Script --
 Navigate to the directory where you saved the file using your terminal or command prompt, and execute the script with the following command:
 python analyzer.py
 
-Step 3: Follow the Prompts
+Step 3: Follow the Prompts -- 
 The script will guide you through the input process:
 Enter the number of game rounds/sessions you wish to analyze.
 Select the game genre by entering the corresponding number (1-5).
@@ -45,7 +43,7 @@ Playstyle (safe/risky)
 Difficulty (1-10)
 Win/Loss (win/loss)
 
-Step 4: Review the Analysis and Graphs
+Step 4: Review the Analysis and Graphs -- 
 After all sessions' data have been entered, the script will:
 Display the PLAYER ANALYSIS REPORT with various performance indexes.
 Show GENRE BASED TIPS relevant to your selected game genre.
@@ -55,13 +53,15 @@ Focus Level Progression
 Fatigue Level Progression
 You may need to close the graph windows for the script to fully complete its execution.
 
-E. Instructions for testing
+E. Instructions for testing -
 Data Input and Calculation Tests
 This uses specific data sets to verify that the core metrics, derived indexes, and trend logic are calculated correctly.
 
 Test Set A: Consistent, High-Performance Session
 This set simulates a player with excellent performance and a safe playstyle.
+
 Metric -- Session 1,Session 2,Session 3 
+
 --Expected Outcome Check--
 Time taken (s) -- 5.0,5.0,5.0
 avg_time should be ≈5.0. 
@@ -76,6 +76,7 @@ Aggression Level should be ≈30.
 Win/Loss -- win,win,win
 
 Metric -- Session 1,Session 2,Session 3 
+
 --Expected Outcome Check--
 Time taken (s) -- 12.0,15.0,18.0
 avg_time should be ≈15.0. 
