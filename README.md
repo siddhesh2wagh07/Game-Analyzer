@@ -1,6 +1,6 @@
 A.Title -
 
-Gameplay Analyzer
+Game Performance Analyzer
 
 
 B.Overview of the Project -
